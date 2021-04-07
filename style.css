@@ -1,5 +1,6 @@
 html,body {
     overflow: hidden;
+    font-family: Poppins, sans-serif;
 }
 
 section {
@@ -8,14 +9,14 @@ section {
     justify-content: center;
     width: 100vw;
     height: 100vh;
-    /*background-position: center;*/
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 /* Image Mask */
 .mask {
-    background: black;
+    /*background: black;*/
     width: 100%;
     height: 100%;
     position: absolute;
@@ -27,7 +28,7 @@ section {
 
 /* Hero Image */
 .hero {
-    color: white;
+    color: black;
     background-image: url("./img.jpg");
 }
 
@@ -37,6 +38,7 @@ section {
     /*opacity: 1;*/
     transition: opacity 2.0s;
     z-index: 2;
+    margin-bottom: 175px;
 }
 
 /*.hero .content div{*/
