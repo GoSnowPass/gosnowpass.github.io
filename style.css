@@ -1,7 +1,44 @@
+html,body {
+    overflow: hidden;
+}
+
 section {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100vw;
     height: 100vh;
+    /*background-position: center;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Image Mask */
+.mask {
+    background: black;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    left: 0px;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+/* Hero Image */
+.hero {
+    color: white;
+    background-image: url("./img.jpg");
+}
+
+.hero .content {
+    text-align: center;
+    width: 100%;
+    /*opacity: 1;*/
+    transition: opacity 2.0s;
+    z-index: 2;
+}
+
+.hero img {
+    width: 50%;
 }
