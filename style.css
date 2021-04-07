@@ -39,6 +39,12 @@ section {
     z-index: 2;
 }
 
+/*.hero .content div{*/
+/*    text-align: left;*/
+/*}*/
+
 .hero img {
+    padding-left: 10%;
+    padding-bottom: 25px;
     width: 50%;
 }
